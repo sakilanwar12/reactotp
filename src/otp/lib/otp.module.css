@@ -1,0 +1,34 @@
+.ReactOtpLayoutWrapper {
+  width: 100%;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.ReactOtpInputWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.ReactOtpInput {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.ReactOtpButton {
+  height: 40px;
+  padding: 0px 16px;
+  border-radius: 6px;
+  text-transform: capitalize;
+  color: #222222;
+  border: 1px solid gray;
+}
+
+.ReactOtpButton:hover {
+  background-color: #0000;
+}
